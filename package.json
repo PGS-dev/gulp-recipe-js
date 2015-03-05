@@ -1,0 +1,22 @@
+{
+  "name": "gulp-recipe-js",
+  "version": "0.1.0",
+  "description": "Recipe handling hooks for js processing in development",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PGS-dev/gulp-recipe-js.git"
+  },
+  "keywords": [
+    "PGS",
+    "gulp",
+    "gulp-receipe",
+    "js",
+    "development"
+  ],
+  "author": "PGS Front",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-sourcemaps": "^1.5.0"
+  }
+}
