@@ -17,9 +17,14 @@ Starts Watching all js files and runs hooked actions only on changed files.
 ## Configuration
 ### Sources
 #### sources.js
-> default: ['app/components/**/*.js', 'app/*.js']
+> mandatory
 
 Raw js files to be compiled by all js transformers.
+
+> example config:
+``` javascript
+sources.js = ['app/components/**/*.js', 'app/*.js'];
+```
 
 ### Paths
 #### paths.tmp
