@@ -15,7 +15,7 @@ Runs all hooked actions on all js files and saves them to configured temp direct
 Starts Watching all js files and runs hooked actions only on changed files.
 
 ## Configuration
-### Sources
+### [Sources](https://github.com/PGS-dev/gulp-recipe-loader#sources-configuration-syntax)
 #### sources.js
 > mandatory
 
