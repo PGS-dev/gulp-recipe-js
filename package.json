@@ -1,6 +1,6 @@
 {
   "name": "gulp-recipe-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Recipe handling hooks for js processing in development",
   "main": "main.js",
   "repository": {
