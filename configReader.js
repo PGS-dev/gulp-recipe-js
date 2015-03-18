@@ -5,7 +5,7 @@ module.exports = function ($, config) {
 
     $.utils.checkMandatory(config, ['sources.js']);
 
-    return _.merge({
+    config = _.merge({
         paths: {
             tmp: 'tmp'
         },
@@ -14,4 +14,6 @@ module.exports = function ($, config) {
             watchJs: 'watch:js'
         }
     }, config);
+    config.sources = _.pick(config.sources, 'js');
+    return config;
 };
