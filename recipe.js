@@ -51,7 +51,7 @@ module.exports = function ($, config, sources) {
     }
 
     // register tasks
-    $.utils.maybeTask(config.tasks.watchJs, [config.tasks.js], watchJsTask);
+    $.utils.maybeTask(config.tasks.watchJs, watchJsTask);
     $.utils.maybeTask(config.tasks.js, jsTask);
 
     /* Provided hooks
@@ -75,6 +75,7 @@ module.exports = function ($, config, sources) {
          *
          * @hooks watch
          */
+        compile: config.tasks.js,
         watch: config.tasks.watchJs,
         pipes: {
             assetJs: sources.js
